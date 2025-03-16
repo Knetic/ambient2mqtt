@@ -82,40 +82,46 @@ platform="sensor"
 icon="mdi:weather-windy"
 unit="mph"
 
+[sensors.yearlyrainin]
+name="yearly_rain"
+platform="sensor"
+icon="mdi:weather-rainy"
+unit="in"
+
 [sensors.monthlyrainin]
 name="monthly_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.weeklyrainin]
 name="weekly_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.dailyrainin]
 name="daily_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.eventrainin]
 name="event_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.hourlyrainin]
 name="hourly_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.totalrainin]
 name="total_rain"
 platform="sensor"
-icon="mdi:water"
+icon="mdi:weather-rainy"
 unit="in"
 
 [sensors.solarradiation]
